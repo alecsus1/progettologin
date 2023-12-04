@@ -17,15 +17,15 @@ use App\Livewire\Login;
 |
 */
 
-// Route::get('/home', function () {
+Route::get('/home', function () {
     
-//     return view('welcome');
-// });
+    return view('welcome');
+});
 
-// Route::get('/register', [RegisterController::class, 'create']);
-// Route::post('/register',[RegisterController::class,'store']);
-// Route::get('/logout',[LogoutController::class,'destroy'])->middleware('auth'); //in questo modo solo gli utenti autenticati possono accedere a questo percorso
-// Route::get('/login', [LoginController::class, 'create']);
-// Route::post('/login', [LoginController::class, 'authenticate']);
+Route::get('/register', [RegisterController::class, 'create']);
+Route::post('/register',[RegisterController::class,'store']);
+Route::get('/logout',[LogoutController::class,'destroy'])->middleware('auth');
+Route::get('/login', [LoginController::class, 'create']);
+Route::post('/login', [LoginController::class, 'authenticate']);
 
-Route::get('/login', Login::class);
+//Route::get('/login', Login::class);
