@@ -36,21 +36,5 @@
 </form>
 <a class="nav-link fw-bold py-1 px-0" href="/home">Torna alla Home</a>
 @endsection
-<!-- <div>
-    <label for="name">Nome</label>
-    <input type="text" name="name" id="name">
-</div>
-<div>
-    <label for="email">Email</label>
-    <input type="email" name="email" id="email">
-</div>
-<div>
-    <label for="password">Password</label>
-    <input type="password" name="password" id="password">
-</div>
-<div>
-    <label for="password_confirmation">Conferma Password</label>
-    <input type="password" name="password_confirmation" id="password_confirmation">
-</div>
-<div> -->
+
     
